@@ -1,0 +1,101 @@
+/* CSS Document */
+
+body
+{
+	
+}
+#outer
+{
+	width: 100%;
+	max-width: 1020px;
+	background-color: red;
+	padding: 2.5%;
+}
+/**Header**/
+header
+{
+	background-color: green;
+	width: 97%;
+	padding: 2%;
+}
+nav
+{
+	width: 100%;
+	height: 10px;
+	background-color: blue;
+}
+/**Header**/
+/**body**/
+#main
+{
+	width: 99%;
+	padding: 1%;
+	margin-top: 2%;
+	background-color: purple;
+}
+#asideTallLeft
+{
+	width: 25%;
+	height: 100%;
+	margin-right: 2%;
+	background-color: aqua;
+	float: left;
+}
+#sectionLarge
+{
+	width: 69%;
+	background-color: blue;
+	float: left;
+	padding: 2%;
+}
+#sectionSmall
+{
+	width: 100%;
+	background-color: blueviolet;
+	float: left;
+	margin-bottom: 2%;
+}
+#articalLeft
+{
+	width: 49%;
+	background-color: cyan;
+	float: left;
+	margin-right: 2%;
+}
+#articalRight
+{
+	width: 49%;
+	background-color:darkgreen;
+	float: left;
+	margin-bottom: 2%;
+}
+#asideSmallRight
+{
+	width: 49%;
+	background-color:chocolate;
+	float: right;
+}
+/**body**/
+
+/**Footer**/
+footer
+{
+	width: 100%;
+	background-color: chartreuse;
+}
+
+/**Footer**/
+
+/**Other**/
+
+.clearfloat {
+font-size: 0px;
+margin: 0px;
+padding: 0px;
+clear: both;
+float: none;
+height: 0px;
+width: 0px;
+border: 0px none;
+line-height: 0px;
+}
