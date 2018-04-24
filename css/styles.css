@@ -1,207 +1,100 @@
+@charset "utf-8";
 /* CSS Document */
-
-body
-{
-	font-family: 'Mukta Mahee', sans-serif;
-	width: 100%;
-	align-content: center;
-	padding: 0px 10%;
-}
-#outer
-{
-	width: 80%;
-	max-width: 1020px;
-	padding: 2.5%;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	color: #ff9a9a;
-}
-/**Header**/
-header
-{
-	background-color: #ff9a9a;
-	width: 97%;
-	/**min-height: 200px;**/
-	min-width: 330px;
-	padding: 2%;
-	align-content: center;
-	text-align: center;
-	color: #ffd3d3;
-}
-/***Nav***/
-nav
-{
-	width: 100%;
-}
-ul
-{
-	padding: 0px;
-	margin: 0px;
-}
-nav li
-{
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-}
-nav li a
-{
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	float: left;
-	margin: 8px 5px;
-	padding: 1px 4px;
-	color: #ffd3d3;
-}
-nav li a:hover
-{
-	border: 1px solid black;
-	padding: 0px 3px;
-	background-color: #ffd3d3;
-	color: #ff9a9a;
-}
-/***Nav**/
-/**Header**/
-/**body**/
-#main
-{
-	width: 99%;
-	min-width: 400px;
-	padding: 1%;
-	margin-top: 2%;
-}
-#asideTallLeft
-{
-	width: 25%;
+html{
 	height: 100%;
-	margin-right: 2%;
-	float: left;
-	background-color: #ffd3d3;
 }
-#sectionLarge
-{
-	width: 69%;
-	float: left;
-	padding: 2%;
-	background-color: #ffd3d3;
+body{
+	height: 100%;
 }
-#sectionSmall
-{
+/**Header**/
+header{
+	
+}
+/**Nav**/
+nav{
 	width: 100%;
+	height: 10%;
+	background-color:#515151;
+	color: #D0D0D0;
+	text-align: center;
+}
+ul{
+	display: block;
+	margin: 0px;
+	adding: 0px;
+}
+li{
+	text-decoration: none;	
+	list-style-type: none;
+	display: block;
 	float: left;
-	margin-bottom: 2%;
+	padding-right: 3%;
+	padding-top: 3.5%;
 }
-.artical
-{
-	width: 48%;
-	float: left;
-	margin-right: 2%;
+a{
+	font-size: 2.4vh;
 }
-#articalLeft
-{
-	width: 49%;
-	float: left;
-	margin-right: 2%;
+/**Nav**/
+/**Header**/
+#outer{
+	width:100%;
+	height: 100%;
 }
-#articalRight
-{
-	width: 49%;
-	float: left;
-	margin-bottom: 2%;
-	align-content: center;
+/**Body**/
+#main{
+	width:100%;
+	height: 100%;
 }
-#asideSmallRight
-{
-	width: 49%;
-	float: right;
+/**Paralax backgrounds**/
+#landing{
+	background-image: url(../images/redDrop.png);
+	height: 90%;
+	width: 100%;
+	background-repeat: repeat;
 }
-/**body**/
+#portfolio1{
+	background-image: url(../artwork/pexels-photo-1018350.jpeg);
+	height: 110%;
+	width: 100%;
+}
+#portfolio2{
+	background-image: url(../artwork/pexels-photo-877695.jpeg);
+	height: 110%;
+	width: 100%;
+}
+#spacer{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+}
+#matt{
+	text-align: center;
+	position: relative;
+	top: 15%;
+}
+#matt img{
+	width: 350px;
+}
+/**Body**/
 
 /**Footer**/
-footer
-{
-	width: 100%;
-	min-height: 150px;
-	align-content: center;
-	background-color: #ff9a9a;
-	color: #ffd3d3;
-	min-width: 330px;
-}
-#footHolder
-{
-	width: 30%;
-	text-align: center;
-	margin-left: 35%;
-	margin-right:35%;
-}
-#navy
-{
-	width: 100%;
-	align-content: center;
-	padding-left: 27%;
-}
-#navy li
-{
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-}
-#navy li a
-{
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	float: left;
-	margin: 8px 5px;
-	padding: 1px 4px;
-	font-size: 12px;
-	color: #ffd3d3;
-}
-#navy li a:hover
-{
-	border: 1px solid black;
-	padding: 0px 3px;
-	background-color: #ffd3d3;
-	color: #ff9a9a;
-}
-footer p
-{
-	width: 108px;
-	float: left;
+footer{
+	
 }
 /**Footer**/
 
 /**Other**/
 
-img
-{
-	width: 90%;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-
-h1
-{
-	margin: 0px;
-}
-h2
-{
-	margin: 0px;
-}
-h3
-{
-	margin: 0px;
-}
-h4
-{
-	margin: 0px;
-}
-h5
-{
-	margin: 0px;
-}
-h6
-{
-	margin: 0px;
+.paralax{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .clearfloat {
 font-size: 0px;
@@ -213,35 +106,4 @@ height: 0px;
 width: 0px;
 border: 0px none;
 line-height: 0px;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  
-	body{
-		padding: 0px;
-	}
-	#outer{
-		width: 100%;
-		margin: 0px;
-	}
-	
-	h1{
-		font-size: 60px;
-	}
-	h2{
-		font-size: 40px;
-	}
-	h3{
-		font-size: 30px;
-	}
-	img
-	{
-		width: 100%;
-	}
-	p{
-		font-size: 30px;
-	}
-	a{
-		font-size: 30px;
-	}
 }

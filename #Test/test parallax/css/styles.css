@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    height: 100%;
+}
+
+.fir-div {
+	background-image: url(../images/redDrop.jpg);
+	height: 100%;
+	width: 100%;
+	
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+	background-repeat: repeat;
+    background-size: cover;
+}
+
+.fir-forg {
+	height: 150px;
+	background-color: red;
+}
+
+.sec-div {
+	background-image: url(../images/bckg2.jpg);
+	height: 65%;
+	width: 100%;
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-forg {
+	height: 350px;
+	background-color: blue;
+}
+
+.thi-div {
+	background-image: url(../images/bckg3.jpg);
+	height: 85%;
+	width: 100%;
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thi-forg {
+	height: 500px;
+	background-color: yellow;
+}
+
+.fou-div {
+	background-image: url(../images/bckg4.jpg);
+	height: 45%;
+	width: 100%;
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fou-forg {
+	height: 200px;
+	background-color: green;
+}
