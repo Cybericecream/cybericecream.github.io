@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+/**Header**/
+header{
+	
+}
+/**Nav**/
+nav{
+	width: 100%;
+	height: 10%;
+	background-color:#515151;
+	color: #D0D0D0;
+	text-align: center;
+}
+ul{
+	display: block;
+	margin: 0px;
+	adding: 0px;
+}
+li{
+	text-decoration: none;	
+	list-style-type: none;
+	display: block;
+	float: left;
+	padding-right: 3%;
+	padding-top: 3.5%;
+}
+a{
+	font-size: 2.4vh;
+}
+/**Nav**/
+/**Header**/
+#outer{
+	width:100%;
+	height: 100%;
+}
+/**Body**/
+#main{
+	width:100%;
+	height: 100%;
+}
+/**Paralax backgrounds**/
+#landing{
+	background-image: url(../images/redDrop.png);
+	height: 90%;
+	width: 100%;
+	background-repeat: repeat;
+}
+#portfolio1{
+	background-image: url(../artwork/pexels-photo-1018350.jpeg);
+	height: 110%;
+	width: 100%;
+}
+#portfolio2{
+	background-image: url(../artwork/pexels-photo-877695.jpeg);
+	height: 110%;
+	width: 100%;
+}
+#spacer{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+}
+#matt{
+	text-align: center;
+	position: relative;
+	top: 15%;
+}
+#matt img{
+	width: 350px;
+}
+/**Body**/
+
+/**Footer**/
+footer{
+	
+}
+/**Footer**/
+
+/**Other**/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.paralax{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.clearfloat {
+font-size: 0px;
+margin: 0px;
+padding: 0px;
+clear: both;
+float: none;
+height: 0px;
+width: 0px;
+border: 0px none;
+line-height: 0px;
+}
