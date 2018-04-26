@@ -107,7 +107,22 @@ footer{
 	
 }
 /**Footer**/
-
+/**Media Request**/
+@media only screen and (max-width: 768px){
+	.social img{
+		width: 15%;
+	}
+	#matt img{
+	/**width: 400px;
+		max-height: 400px;
+		max-width: 400px;**/
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 320px){
+	
+	
+}
 /**Other**/
 
 .sticky {
