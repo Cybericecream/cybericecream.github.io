@@ -110,13 +110,12 @@ footer{
 /**Media Request**/
 @media only screen and (max-width: 768px){
 	.social img{
-		width: 15%;
+		width: 135px;
 	}
 	#matt img{
-	/**width: 400px;
-		max-height: 400px;
-		max-width: 400px;**/
-		width: 80%;
+	/**width: 400px;**/
+		max-height: 800px;
+		max-width: 800px;
 	}
 }
 @media only screen and (max-width: 320px){
